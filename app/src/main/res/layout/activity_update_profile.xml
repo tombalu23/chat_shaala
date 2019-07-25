@@ -1,72 +1,123 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="@dimen/intrinsic_padding">
-
-    <ScrollView
-        android:id="@+id/regForm"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:id="@+id/email_login_form"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:focusableInTouchMode="true"
-            android:orientation="vertical">
-
-            <RelativeLayout
-                android:id="@+id/imageContainer"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal">
-
-                <ProgressBar
-                    android:id="@+id/avatarProgressBar"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_centerInParent="true"
-                    android:visibility="visible" />
-
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:visibility="visible" />
-
-            </RelativeLayout>
-            <Button
-                android:layout_marginTop="20dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Change Profile PIC"/>
-
-
-
-                <EditText
-                    android:layout_marginTop="20dp"
-                    android:id="@+id/nameEditText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Promt Name"
-                    android:imeOptions="actionDone"
-                    android:inputType="text"
-                    android:maxLines="1"/>
+    tools:context=".edit_profile">
+<ImageButton
+android:id="@+id/imageButton"
+android:layout_width="129dp"
+android:layout_height="129dp"
+android:layout_alignParentStart="false"
+android:layout_alignParentTop="false"
+android:layout_centerHorizontal="true"
+android:layout_marginStart="132dp"
+android:layout_marginTop="30dp" />
+<EditText
+android:id="@+id/editText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+android:layout_marginStart="91dp"
+android:layout_marginTop="185dp"
+android:ems="10"
+android:hint="Edit Name"
+android:inputType="textPersonName" />
+<EditText
+android:id="@+id/editText3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+android:layout_marginStart="91dp"
+android:layout_marginTop="236dp"
+android:ems="10"
+android:hint="Edit Status"
+android:inputType="textPersonName" />
+<Button
+android:id="@+id/button"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+android:layout_marginStart="127dp"
+android:layout_marginTop="322dp"
+android:text="Update Details" />
+    </RelativeLayout>
 
 
 
-        <Button
-            android:id="@+id/ChangePassword"
-            android:layout_gravity="center"
-            android:text="Change Password"
-            android:layout_marginTop="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
 
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
