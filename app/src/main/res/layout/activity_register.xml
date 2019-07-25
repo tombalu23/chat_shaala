@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="HardcodedText"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient_signup">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
@@ -51,37 +51,25 @@
             android:hint="Password"
             android:inputType="textPassword"
             />
-        <TextView
-            android:id="@+id/Forgot_password"
-            android:layout_width="match_parent"
-            android:layout_gravity="end"
+
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/LoginButton"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:gravity="end"
-            android:padding="5dp"
-            android:text="Forgot Password?"
-            android:textColor="@color/caldroid_white"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="30dp"
-            android:textSize="14sp" />
-
-<Button
-    android:id="@+id/LoginButton"
-    android:layout_width="250dp"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:text="Login"
-    android:background="@color/colorAccent"
-    />
-
-
+            android:layout_gravity="center"
+            android:text="Login"
+            android:background="@color/colorAccent"
+            />
 
         <TextView
-            android:id="@+id/textViewSignup"
+            android:id="@+id/textViewLogin"
             android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:textColor="@color/caldroid_white"
             android:layout_height="wrap_content"
-            android:text="Register Here"
+            android:text="Login Here"
             android:layout_gravity="center" />
 
         <ProgressBar
